@@ -4,39 +4,131 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <title>Bootstrap Portfolio</title>
   </head>
 
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light bg light fixed-top">
+    <!-- Start of About -->
+    <!-- Navigation -->
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top">
         <div class="container">
           <h1 class="navbar-brand">Erick Torres</h1>
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-            <span class="navbar-toggle-icon"></span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr auto w-100 justify-content-end">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">About</a>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    </div>
+    </header>
+    <!-- About container -->
+    <main>
+      <div class="container about-container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>About</h2>
+            <hr />
+          </div>
+          <div class="col-md-3">
+            <img class="about-image" src="assets/images/person.jpg" />
+          </div>
+          <div class="col-md-9" id="about-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eos
+              molestias velit neque, vitae fuga maxime optio libero
+              exercitationem iure quisquam ratione qui iste asperiores
+              praesentium, officia possimus ut ab.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis non
+              quia rerum rem, commodi illo facilis animi sit assumenda nostrum
+              aliquam esse nemo ab id tempore. Saepe doloremque dolores
+              dignissimos.
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab enim
+              maxime consequatur at libero amet eius quis vel! Possimus delectus
+              quam aut blanditiis sint, omnis recusandae itaque voluptas nostrum
+              totam!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              modi libero quisquam, a minima aspernatur dolor, voluptatum
+              commodi laborum error similique distinctio facere placeat ad
+              dolore exercitationem quod provident sunt.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              similique eos explicabo asperiores, minus autem eveniet!
+              Recusandae distinctio consectetur deserunt dolor veritatis. Aut
+              distinctio architecto ullam error ad, velit magnam!
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+              voluptate saepe voluptatibus earum dolorem ab? Error mollitia aut
+              veritatis quae. Iure at rerum vitae suscipit porro libero quidem
+              repellat repudiandae!
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- End of About container -->
+    <!-- End of About-->
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="container-fluid">
+        <p>Copyright &copy;</p>
+      </div>
+    </footer>
+    <!-- End of Footer-->
+
+    <!-- Scripting Source Files-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
+    <!-- End of Script Source Files-->
   </body>
 </html>
