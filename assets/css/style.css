@@ -98,6 +98,17 @@ body {
     margin-bottom: 20px;
 }
 
+.fa-linkedin {
+    margin-top: 5%;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+.fa-github-square {
+    margin-top: 5%;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+
 /* Footer */
 footer {
     background: #666666;
