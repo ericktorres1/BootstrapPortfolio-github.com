@@ -12,126 +12,97 @@
     />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <title>Bootstrap Portfolio</title>
+    <link rel="stylesheet" href="assets/css/fixed.css">
+    <title>Erick's Portfolio</title>
   </head>
 
-  <body>
-    <!-- Start of About -->
-    <!-- Navigation -->
-    <header>
-      <nav class="navbar navbar-expand-md fixed-top">
-        <div class="container">
-          <h1 class="navbar-brand"><a href="index.html">Erick Torres</a></h1>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarResponsive"
-          >
-            <span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    
+    <!--Start of Home Section-->
+    <div id="home">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand">Erick Torres</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </nav>
-    </header>
-    <!-- About container -->
-    <main>
-      <div class="container about-container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>About</h2>
-            <hr />
-          </div>
-          <div class="col-md-3">
-            <img class="about-image" src="assets/images/person.jpg" />
-            <a href="https://www.linkedin.com/in/torreserickj"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/ericktorres1"><i class="fab fa-github-square float-left"></i></a>
-          </div>
-          <div class="col-md-9" id="about-text">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eos
-              molestias velit neque, vitae fuga maxime optio libero
-              exercitationem iure quisquam ratione qui iste asperiores
-              praesentium, officia possimus ut ab.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis non
-              quia rerum rem, commodi illo facilis animi sit assumenda nostrum
-              aliquam esse nemo ab id tempore. Saepe doloremque dolores
-              dignissimos.
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab enim
-              maxime consequatur at libero amet eius quis vel! Possimus delectus
-              quam aut blanditiis sint, omnis recusandae itaque voluptas nostrum
-              totam!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              modi libero quisquam, a minima aspernatur dolor, voluptatum
-              commodi laborum error similique distinctio facere placeat ad
-              dolore exercitationem quod provident sunt.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              similique eos explicabo asperiores, minus autem eveniet!
-              Recusandae distinctio consectetur deserunt dolor veritatis. Aut
-              distinctio architecto ullam error ad, velit magnam!
-            </p>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
-              voluptate saepe voluptatibus earum dolorem ab? Error mollitia aut
-              veritatis quae. Iure at rerum vitae suscipit porro libero quidem
-              repellat repudiandae!
-            </p>
+      <!-- End Navigation -->
+      <!-- Start Landing Page Section-->
+      <div class="landing">
+        <div class="home-wrap">
+          <div class="home-inner">
           </div>
         </div>
       </div>
-    </main>
-
-    <!-- End of About container -->
-    <!-- End of About-->
-
-    <!-- Footer -->
-
-    <footer>
-      <div class="container-fluid">
-        <p>Copyright &copy;</p>
+      <div class="caption text-center">
+        <h1>Erick Torres</h1>
+        <h3>Welcome To My Portfolio</h3>
+        <a class="btn btn-outline-light btn-lg" href="#about">Get Started</a>
       </div>
-    </footer>
-    <!-- End of Footer-->
+      <!-- End Landing Page Section-->
+    </div>
+    <!--End of Home Section-->
 
-    <!-- Scripting Source Files-->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <!--Start of About Section-->
+    <div id="about" class="offset">
+      <div class="col-12 narrow text-center">
+        <h1>About Me</h1>
+        <p class="lead">Erick is a passionate individual about technology which aspires to become a professional developer.  His passion was born when he moved in the United States because back in his village there was no technology.  He hopes to change the world one day and take new technology back to his village to motivate them to start using technology.  Erick started this journey 3 years ago and started clueless about programming to become a professional developer.    </p>
+      </div>
+    </div>
+    <!--End of About Section-->
 
-    <script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
+    <!--Start of Portfolio Section-->
+    <div id="portfolio" class="offset">
+      <!-- Start Jumbotron-->
+      <div class="jumbotron">
+      <div class="narrow">
+        <div class="col-12">
+          <h3 class="heading"> Portfolio</h3>
+          <div class="heading-underline"></div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="feature">
+              <img src="assets/images/project1.jpg">
+            </div>
+          </div>
+        </div><!-- End Row-->
+
+      </div> <!-- End of Narrow-->
+      </div> <!-- End Jumbotron-->
+
+    </div>
+    <!--End of Portfolio Section-->
+    
+    <!--Start of Contact Section-->
+    <div id="contact" class="offset">
+
+    </div>
+    <!--End of contact Section-->
+
+    <!-- Script Source Files-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
     <!-- End of Script Source Files-->
   </body>
 </html>
